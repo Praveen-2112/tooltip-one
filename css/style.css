@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+@media(min-width:320px){
+
+    
+    .para{
+        
+        text-align:center;
+      
+        font-size: 20px;
+    }
+    .head{
+        padding:10px 50px;
+      
+        text-align: center;
+    }
+    .para1{
+        padding: 0 20px 10px 20px;
+        font-size: 20px;
+        text-align: center;
+       
+    }
+    .card{
+        width: 100%;
+    }
+    .imgs{
+        width: 100%;
+    }
+    .detail{
+        width: 100%;
+    }
+    .button_card{
+        top:31%;
+        left:35%;
+    }
+    .button_card{
+        padding: 5px;
+    }
+}
+@media(min-width:620px){
+   
+    .para{
+        
+        text-align:center;
+       
+        font-size: 20px;
+    }
+    .head{
+        padding:10px 50px;
+        
+        text-align: center;
+    }
+    .para1{
+        padding: 0 20px 10px 20px;
+        font-size: 20px;
+        text-align: center;
+       
+    }
+    .button_card{
+        top:42%;
+        left:45%;
+    }
+    .button_card{
+        padding: 10px;
+    }
+
+}
+@media(min-width:960px){
+    .para{
+        
+        text-align:center;
+        padding-left: 20px;
+    }
+    .head{
+        padding: 20px;
+        text-align:center;
+    }
+    .para1{
+        
+        text-align:center;
+    }
+    .button_card{
+        top:30%;
+        left:12%;
+    }
+    .card{
+        width:25%
+    }
+    .button_card{
+        padding: 5px;
+    }
+
+   
+}
+
+.button_card{
+  background-color: rgb(0, 255, 179);
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+  position: absolute;
+ 
+  border: 1px solid rgb(2, 2, 32);
+}
+
+.imgs{
+    position: relative;
+   
+}
+.card{
+    background-color: aliceblue;
+
+}
+
+.detail{
+    position: relative;
+    display: none;
+}
+
+#icon-close{
+    position: absolute;
+    top:0%;
+    right:0%;
+}
+.view{
+    display: block;
+}
